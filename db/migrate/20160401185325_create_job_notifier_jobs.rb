@@ -1,4 +1,4 @@
-class CreateJobNotifierJobs < ActiveRecord::Migration
+class CreateJobNotifierJobs < ActiveRecord::Migration[6.0]
   def change
     create_table :job_notifier_jobs do |t|
       t.string :identifier, index: true

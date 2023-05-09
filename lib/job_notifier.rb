@@ -1,4 +1,4 @@
-require "job_notifier/engine"
+require_relative "./job_notifier/engine"
 require "enumerize"
 require "colorize"
 require "silencer"
